@@ -60,7 +60,7 @@ input passphrase: # Enter passphrase from Developer Mode app
 ```bash
 ares-install ~/Downloads/app.ipk -d webos372
 
-[Info] Set target device : webos372_home
+[Info] Set target device : webos372
 Installing package /Users/alexey.berezin/Downloads/app.ipk
 Success
 ```
@@ -68,9 +68,9 @@ Success
 8. Inspect your application
 
 ```bash
-ares-inspect APP_ID -d webos372_home
+ares-inspect APP_ID -d webos372
 
-[Info] Set target device : webos372_home
+[Info] Set target device : webos372
 Application Debugging - http://localhost:50693/devtools/devtools.html?experiments=true&ws=localhost:50693/devtools/page/F5619BBB-FC20-9EA0-D6A6-CC2EE5D4D083
 ```
 
