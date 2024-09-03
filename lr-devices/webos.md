@@ -65,7 +65,7 @@ Installing package /Users/alexey.berezin/Downloads/app.ipk
 Success
 ```
 
-8. Inspect your application
+8.1. Either inspect your application
 
 ```bash
 ares-inspect APP_ID -d webos372
@@ -77,4 +77,14 @@ Application Debugging - http://localhost:50693/devtools/devtools.html?experiment
 > [!NOTE]  
 > `APP_ID` is supplied in your `*-appinfo.json` under `id`
 
-9. Open Application Debugging ✅
+8.1.1. Use old Chromium (e.g. [Chromium.70.0.3538.67](https://github.com/macchrome/macstable/releases/download/v70.0.3538.67-r587811-macOS/Chromium.70.0.3538.67.polly.lto.cfi.O3.sync.app.zip)) or latest Safari
+
+8.1.2. Open Application Debugging ✅
+
+8.2. Or just launch your application
+
+```bash
+ares-launch APP_ID -d webos372
+
+[Info] Set target device : webos372
+```
